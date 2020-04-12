@@ -1,0 +1,20 @@
+AppRun(notepad.exe)
+
+Input(昔々、あるところにおじいさんとおばあさんが住んでいました。)
+SendKey({ENTER 1})
+Input(おじいさんは山へしばかりに、おばあさんは川で洗濯に。)
+Wait(1000)
+SendKey({ENTER 2})
+Input(ある日、おばあさんは川で大きな桃をひろい、家に持って帰りました。)
+SendKey({ENTER 1})
+Input(桃を食べようとして割ってみるとなんと中から男の子が。)
+SendKey({ENTER 1})
+Input(桃太郎と名付けられた男の子。)
+SendKey({ENTER 1})
+Input(大切に育てられ、すくすく大きく育ったある日、鬼が島の悪い鬼の噂を聞いて、鬼退治に出かけることになりました。)
+SendKey({ENTER 1})
+
+Wait(3000)
+SendKey(%{F4})
+SendKey(n)
+

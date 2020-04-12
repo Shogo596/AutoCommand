@@ -1,0 +1,15 @@
+Msg(開始)
+
+'メモ帳に戯言を書いてみるテスト。
+AppRun(notepad.exe)
+SendKey(All is well that ends well.)
+Wait(1000)
+SendKey({ENTER 1})
+Input(訳：終わり良ければ全てよし)
+
+'メモ帳を強制終了する。
+Wait(3000)
+SendKey(%{F4})
+SendKey(n)
+
+Msg(終了)
